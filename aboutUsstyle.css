@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar*/
+#navigation-bar {
+    position: fixed;
+    width: 100%;
+}
+/*navigation bar style*/
+#navigation-container {
+    background-color: white;
+    height: 70px;
+    opacity: .8;
+    position: center;
+}
+/*menu option position*/
+#navigation-container > ul > li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 0px 0px 15px;
+}
+/*menu option style*/
+#navigation-container > ul > li > a {
+    text-decoration: none;
+    color: #857f7f;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    transition:.5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+/*menu position*/
+#menuOptions{
+    text-align: center;
+    padding-top: 25px
+}
+/*hover over menu option*/
+#navigation-container > ul > li > a:hover {
+    color: #A7E9A4;
+    padding-bottom: 22px;
+    border-bottom: 3px solid;
+}
+/*logo*/
+#logo {
+    float: left;
+    padding-top: 10px;
+}
