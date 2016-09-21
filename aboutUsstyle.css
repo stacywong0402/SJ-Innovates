@@ -169,7 +169,7 @@ body {
     background: url(teambackground.jpg) fixed no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1000px;
+    height: 900px;
     text-align: center;
 }
 /*team photo position*/
@@ -203,7 +203,7 @@ body {
 /*team information style*/
 .teamInfo {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    height: 400px;
+    height: 430px;
     width: 300px;
     background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
     background: rgba(255,255,255,0.3);
@@ -265,9 +265,47 @@ body {
     background: url(fellowbackground.jpg) fixed no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1000px;
+    height: 1200px;
+    text-align: center;
+    padding-top: 50px;
+}
+/*fellow information style*/
+.fellowInfo {
+    height: 275px;
+    width: 500px;
+    background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255,255,255,0.3);
+    margin: 5px;
+    display: inline-block;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: relative;
+    vertical-align: top;
 }
 
+
+
+/*break style*/
+#break2 {
+    background-color: #FFFF33;
+    width: 100%;
+    height: 80px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+
+
+/*fFELLOW*/
+#fFellow {
+    background: url(fellowbackground2.jpg) fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 610px;
+    text-align: center;
+    padding-top: 50px;
+}
 
 
 /*FELLOWSHIP2*/
