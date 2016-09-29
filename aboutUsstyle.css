@@ -328,3 +328,11 @@ body {
     font-size: 20px;
     color: white;
 }
+
+
+.hidden2 {
+    opacity: 0;
+}
+.visible2 {
+    opacity: 1;
+}
