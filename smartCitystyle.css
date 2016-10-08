@@ -60,3 +60,346 @@ body {
     width: 250px;
     height: 35px;
 }
+
+
+/*SECTION 1*/
+#section1 {
+    width: 100%;
+    height: 450px;
+    background-color: black;
+}
+
+
+
+/*SECTION 2*/
+#section2 {
+    width: 100%;
+    height: 200px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+/*mayor quote position*/
+#quote {
+    text-align: center;
+    padding-top: 20px;
+}
+#mayor {
+    text-align: right;
+}
+#section2 > p {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+/*ICONS*/
+#icons {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+}
+/*icon position + animation*/
+#icons > .iconWithText > a > img {
+    margin: 30px;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+/*icon text style*/
+#icons > .iconWithText > a > p {
+    margin: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: #000080;
+}
+#icons > .iconWithText > a {
+    text-decoration: none;
+}
+.iconWithText {
+    display: inline-block;
+}
+/*icon hover style*/
+#icons > .iconWithText > a > p:hover {
+    color: #7f7fbf;
+}
+#icons > .iconWithText > a > img:hover {
+    opacity: 0.5;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+#otherIcons {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#otherIcons > a {
+    text-decoration: none;
+}
+#otherIcons > a > p {
+    display: inline;
+    margin: 40px;
+    font-size: 20px;
+    color: black;
+}
+#otherIcons > a > p:hover {
+    color: #000080;
+}
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #2098d1;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before {
+    left: 0;
+    right: 0;
+}
+
+
+
+
+/*SAFETY*/
+#safety > img {
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/*safety image hover*/
+#safety {
+    background-image: url('safety2.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    transition: all ease 1s;
+}
+#safety img {
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    transition: all ease 1s;
+}
+#safety img:hover {
+    opacity: 0;
+}
+#safety:hover {
+    background-color: white;
+}
+
+
+
+/*INCLUSIVE*/
+#inclusive {
+    width: 100%;
+    height: 540px;
+    padding-top: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(inclusivebackground.jpg) no-repeat center center fixed;
+
+}
+#heart {
+    font-size: 300px;
+    color: red;
+    float: right;
+    padding-right: 15px;
+    padding-left: 30px;
+    opacity: .75;
+}
+#inclusive > p {
+    color: white;
+    padding-left: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin: 0px;
+}
+#inclusiveHeader {
+    padding-left: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 50px;
+}
+#inclusiveHeader2 {
+    padding-left: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+}
+
+
+
+/*USERFRIENDLY*/
+#userfriendly {
+    width: 100%;
+    height: 700px;
+    background: dodgerblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, dodgerblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, dodgerblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, dodgerblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, dodgerblue); /* Standard syntax */
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+}
+#friendlyHeader {
+    font-size: 50px;
+    padding-top: 30px;
+    display: inline;
+}
+#friendlyHeader2 {
+    font-size: 20px;
+}
+#userfriendly > p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.smileyface {
+    width: 75px;
+    height: 75px;
+    padding-top: 20px;
+    -webkit-animation-delay: 2s;
+}
+.person {
+    width: 50px;
+    height: 125px;
+}
+
+
+
+/*SUSTAINABLE*/
+#sustainable {
+    width: 100%;
+    height: 325px;
+    background-color: greenyellow;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#sustainableHeader {
+    font-size: 50px;
+    color: white;
+    display: inline;
+}
+#sustainableHeader2 {
+    font-size: 20px;
+    color: white;
+}
+.sustainableText {
+    color: white;
+}
+#sustainable > p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#leaf {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+
+
+/*DEMONSTRATION*/
+#demonstration {
+    width: 100%;
+    height: 400px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(transportation.jpg) no-repeat center center fixed;
+}
+#demonstrationHeader {
+    font-size: 50px;
+}
+#demonstrationHeader2 {
+    font-size: 20px;
+}
+#demonstration > p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+
+/*HOW WE'LL DO IT*/
+#doIt {
+    width: 100%;
+    height: 500px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#doItHeader {
+    font-size: 50px;
+}
+#doItHeader2 {
+    font-size: 20px;
+}
+#doIt > p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/*OUR VALUES*/
+#ourValues {
+    width: 100%;
+    height: 400px;
+    background-color: dodgerblue;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#ourValues > p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#valueHeader {
+    font-size: 50px;
+    color: white;
+}
+.valueText {
+    color: white;
+}
+
+
+
+/*HEYSAM*/
+#juiceHeader{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.juicer-feed {
+    margin: 0 auto;
+}
+
+.hidden {
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+}
