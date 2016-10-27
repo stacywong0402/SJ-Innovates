@@ -89,3 +89,9 @@ jQuery(document).ready(function() {
         offset: 100
     });
 });
+
+function addMargin() {
+    window.scrollTo(0, window.pageYOffset - 100);
+}
+
+window.addEventListener('hashchange', addMargin);

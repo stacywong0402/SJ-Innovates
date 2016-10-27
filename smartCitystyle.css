@@ -45,7 +45,7 @@ body {
 }
 /*hover over menu option*/
 #navigation-container > ul > li > a:hover {
-    color: #A7E9A4;
+    color: #1F5BFF;
     padding-bottom: 22px;
     border-bottom: 3px solid;
 }
@@ -165,7 +165,7 @@ hr {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: #2098d1;
+    background: #1F5BFF;
     height: 2px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -183,13 +183,35 @@ hr {
 
 
 /*SAFETY*/
+#safety {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(safecity.jpg) center center fixed;
+    width: 100%;
+    height: 310px;
+    padding-top: 20px;
+}
+#safety > p {
+    padding-left: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin: 0px;
+    color: white;
+}
+#safetyHeader {
+    font-size: 50px;
+}
+#safetyHeader2 {
+    font-size: 20px;
+}
+
+
+
+/*
 #safety > img {
     position: center;
     display: block;
     margin-left: auto;
     margin-right: auto
 }
-/*safety image hover*/
+/*safety image hover
 #safety {
     background-image: url('safety2.gif');
     background-repeat: no-repeat;
@@ -214,17 +236,18 @@ hr {
 #safety:hover {
     background-color: white;
 }
-
+*/
 
 
 /*INCLUSIVE*/
 #inclusive {
     width: 100%;
-    height: 540px;
+    height: 390px;
     padding-top: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(inclusivebackground.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(inclusivebackground.jpg) center center fixed;
 
 }
+/*
 #heart {
     font-size: 300px;
     color: red;
@@ -232,7 +255,7 @@ hr {
     padding-right: 15px;
     padding-left: 30px;
     opacity: .75;
-}
+}*/
 #inclusive > p {
     color: white;
     padding-left: 20px;
@@ -255,15 +278,11 @@ hr {
 /*USERFRIENDLY*/
 #userfriendly {
     width: 100%;
-    height: 700px;
-    background: dodgerblue; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, dodgerblue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, dodgerblue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, dodgerblue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, dodgerblue); /* Standard syntax */
+    height: 450px;
+    background: #111;
     /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    text-align: center;
+    color: white;
 }
 #friendlyHeader {
     font-size: 50px;
@@ -293,22 +312,17 @@ hr {
 
 /*SUSTAINABLE*/
 #sustainable {
-    width: 100%;
-    height: 325px;
-    background-color: greenyellow;
+    height: 240px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    /*background: url(sustainabilitybackground.jpg) no-repeat right;*/
+    background-size: 500px 250px;
 }
 #sustainableHeader {
     font-size: 50px;
-    color: white;
     display: inline;
 }
 #sustainableHeader2 {
     font-size: 20px;
-    color: white;
-}
-.sustainableText {
-    color: white;
 }
 #sustainable > p {
     margin: 0px;
@@ -326,9 +340,10 @@ hr {
 /*DEMONSTRATION*/
 #demonstration {
     width: 100%;
-    height: 400px;
+    height: 350px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(transportation.jpg) no-repeat center center fixed;
+    background-size: 100% 670px;
 }
 #demonstrationHeader {
     font-size: 50px;
@@ -348,7 +363,7 @@ hr {
 /*HOW WE'LL DO IT*/
 #doIt {
     width: 100%;
-    height: 500px;
+    height: 450px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 #doItHeader {
@@ -369,7 +384,7 @@ hr {
 #ourValues {
     width: 100%;
     height: 400px;
-    background-color: dodgerblue;
+    background-color: #1F5BFF;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 #ourValues > p {
@@ -384,6 +399,9 @@ hr {
 .valueText {
     color: white;
 }
+#ourValues > li {
+    color: white;
+}
 
 
 
@@ -396,6 +414,9 @@ hr {
 .juicer-feed {
     margin: 0 auto;
 }
+
+
+
 
 .hidden {
     opacity: 0;
