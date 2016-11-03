@@ -184,16 +184,18 @@ hr {
 
 /*SAFETY*/
 #safety {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(safecity.jpg) center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(safecity.jpg) fixed;
+    background-size: cover;
     width: 100%;
     height: 310px;
     padding-top: 20px;
 }
 #safety > p {
-    padding-left: 20px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     margin: 0px;
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #safetyHeader {
     font-size: 50px;
@@ -204,48 +206,13 @@ hr {
 
 
 
-/*
-#safety > img {
-    position: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-/*safety image hover
-#safety {
-    background-image: url('safety2.gif');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: black;
-    -webkit-transition: all ease 1s;
-    -moz-transition: all ease 1s;
-    -o-transition: all ease 1s;
-    -ms-transition: all ease 1s;
-    transition: all ease 1s;
-}
-#safety img {
-    -webkit-transition: all ease 1s;
-    -moz-transition: all ease 1s;
-    -o-transition: all ease 1s;
-    -ms-transition: all ease 1s;
-    transition: all ease 1s;
-}
-#safety img:hover {
-    opacity: 0;
-}
-#safety:hover {
-    background-color: white;
-}
-*/
-
-
 /*INCLUSIVE*/
 #inclusive {
     width: 100%;
     height: 390px;
     padding-top: 20px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(inclusivebackground.jpg) center center fixed;
-
+    background-size: cover;
 }
 /*
 #heart {
@@ -259,6 +226,7 @@ hr {
 #inclusive > p {
     color: white;
     padding-left: 20px;
+    padding-right: 20px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     margin: 0px;
 }
@@ -279,7 +247,8 @@ hr {
 #userfriendly {
     width: 100%;
     height: 450px;
-    background: #111;
+    background: url(userfriendly.JPG) center center fixed;
+    background-size: cover;
     /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     color: white;
@@ -313,9 +282,10 @@ hr {
 /*SUSTAINABLE*/
 #sustainable {
     height: 240px;
+    width: 100%;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    /*background: url(sustainabilitybackground.jpg) no-repeat right;*/
-    background-size: 500px 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(sustainable.jpg) fixed;
+    background-size: cover;
 }
 #sustainableHeader {
     font-size: 50px;
@@ -328,6 +298,7 @@ hr {
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
 }
 #leaf {
     width: 50px;
@@ -342,8 +313,8 @@ hr {
     width: 100%;
     height: 350px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(transportation.jpg) no-repeat center center fixed;
-    background-size: 100% 670px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(transportation.jpg) fixed;
+    background-size: cover;
 }
 #demonstrationHeader {
     font-size: 50px;
@@ -384,7 +355,7 @@ hr {
 #ourValues {
     width: 100%;
     height: 400px;
-    background-color: #1F5BFF;
+    background-color: #111;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 #ourValues > p {

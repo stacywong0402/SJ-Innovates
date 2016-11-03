@@ -65,10 +65,10 @@ body {
 
 /*meet the team*/
 #meetTheTeam {
-    background-size: cover;
     width: 100%;
     height: 110%;
-    background: url(innovation.jpg) no-repeat center center fixed;
+    background: url(innovation.jpg) fixed;
+    background-size: cover;
 }
 /*header position*/
 #header {
@@ -159,7 +159,7 @@ body {
 }
 /*button hover*/
 #joinUs:hover {
-    background-color: #4CAF50;
+    background-color: #1F5BFF;
     color: white;
 }
 
@@ -169,7 +169,7 @@ body {
     background: url(teambackground.jpg) fixed no-repeat;
     background-size: cover;
     width: 100%;
-    height: 900px;
+    height: 800px;
     text-align: center;
 }
 /*team photo position*/
@@ -203,7 +203,7 @@ body {
 /*team information style*/
 .teamInfo {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    height: 430px;
+    height: 450px;
     width: 300px;
     background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
     background: rgba(255,255,255,0.3);
@@ -231,6 +231,7 @@ body {
 .teamBio {
     font-size: 15px;
     color: black;
+    padding: 0px 10px 10px 10px
 }
 #info {
     font-size: 15px
@@ -267,13 +268,13 @@ body {
     background: url(fellowbackground.jpg) fixed no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1725px;
+    height: 1900px;
     text-align: center;
     padding-top: 50px;
 }
 /*fellow information style*/
 .fellowInfo {
-    height: 275px;
+    height: 300px;
     width: 500px;
     background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
     background: rgba(255,255,255,0.3);
@@ -306,7 +307,7 @@ body {
     background: url(fellowbackground2.jpg) fixed no-repeat;
     background-size: cover;
     width: 100%;
-    height: 610px;
+    height: 650px;
     text-align: center;
     padding-top: 50px;
 }
