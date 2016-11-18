@@ -60,3 +60,81 @@ body {
     width: 250px;
     height: 35px;
 }
+
+
+
+#left {
+    float: left;
+    width: 50%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#right {
+    float: right;
+    width: 50%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+
+.modheader {
+    font-size: 50px;
+}
+#module1 > #content1 > p,
+#module2 > #content2 > p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#module1,
+#module2 {
+    padding-top: 100px;
+    display: inline-block;
+}
+
+#module1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Prospect%20SV%202.jpeg) fixed no-repeat center;
+    background-size: cover;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#content1 {
+    width: 70%;
+    float: right;
+    color: white;
+    text-align: center;
+
+}
+
+#contentTitle1,
+#contentTitle2 {
+    color: white;
+    height: 100%;
+    width: 30%;
+}
+#contentTitle1 {
+    float: left;
+}
+#contentTitle1 > p {
+    font-size: 50px;
+    padding-left: 20px;
+}
+#contentTitle2 {
+    float: right;
+}
+#contentTitle2 > p {
+    font-size: 50px;
+    padding-right: 20px;
+}
+
+
+#module2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Transportation%20Innovation%20Zone.jpg) fixed no-repeat center;
+    background-size: cover;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#content2 {
+    width: 70%;
+    float: left;
+    color: white;
+    text-align: center;
+}
