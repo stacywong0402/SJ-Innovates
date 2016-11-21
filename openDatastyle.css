@@ -140,6 +140,7 @@ body {
 
 .carousel {
     position: relative;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 .carousel-inner {
     position: relative;

@@ -79,8 +79,8 @@ body {
 .modheader {
     font-size: 50px;
 }
-#module1 > #content1 > p,
-#module2 > #content2 > p {
+#module1 > .content > p,
+#module2 > .content > p {
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -97,35 +97,24 @@ body {
     background-size: cover;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
-#content1 {
+.content {
     width: 70%;
     float: right;
     color: white;
-    text-align: center;
-
 }
 
-#contentTitle1,
-#contentTitle2 {
+.contentTitle {
     color: white;
     height: 100%;
     width: 30%;
 }
-#contentTitle1 {
+.contentTitle {
     float: left;
 }
-#contentTitle1 > p {
+.contentTitle > p {
     font-size: 50px;
     padding-left: 20px;
 }
-#contentTitle2 {
-    float: right;
-}
-#contentTitle2 > p {
-    font-size: 50px;
-    padding-right: 20px;
-}
-
 
 #module2 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Transportation%20Innovation%20Zone.jpg) fixed no-repeat center;
@@ -136,5 +125,4 @@ body {
     width: 70%;
     float: left;
     color: white;
-    text-align: center;
 }
