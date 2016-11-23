@@ -102,6 +102,8 @@ body {
 /*icon position + animation*/
 #icons > .iconWithText > a > img {
     margin: 30px;
+    height: 128px;
+    width: 128px;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
@@ -184,7 +186,7 @@ hr {
 
 /*SAFETY*/
 #safety {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(safecity.jpg) fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(safecity.jpg) fixed;
     background-size: cover;
     width: 100%;
     height: 310px;
@@ -211,7 +213,7 @@ hr {
     width: 100%;
     height: 390px;
     padding-top: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(inclusivebackground.jpg) center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(inclusivebackground.jpg) center center fixed;
     background-size: cover;
 }
 /*
@@ -247,7 +249,7 @@ hr {
 #userfriendly {
     width: 100%;
     height: 450px;
-    background: url(userfriendly.JPG) center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(userfriendly.JPG) center center fixed;
     background-size: cover;
     /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;

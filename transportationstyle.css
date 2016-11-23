@@ -93,7 +93,7 @@ body {
 }
 
 #module1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Prospect%20SV%202.jpeg) fixed no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Prospect%20SV%202.jpeg) fixed no-repeat center;
     background-size: cover;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
@@ -117,7 +117,7 @@ body {
 }
 
 #module2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Transportation%20Innovation%20Zone.jpg) fixed no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Transportation%20Innovation%20Zone.jpg) fixed no-repeat center;
     background-size: cover;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
