@@ -166,7 +166,7 @@ body {
 
 /*TEAM*/
 #team {
-    background: url(teambackground.jpg) fixed no-repeat;
+    background: url(teambackground.JPG) fixed no-repeat;
     background-size: cover;
     width: 100%;
     height: 800px;
@@ -265,7 +265,7 @@ body {
 
 /*cFELLOW*/
 #cFellow {
-    background: url(fellowbackground.jpg) fixed no-repeat;
+    background: url(fellowbackground.JPG) fixed no-repeat;
     background-size: cover;
     width: 100%;
     height: 1900px;
