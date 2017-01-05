@@ -12,9 +12,9 @@ body {
 
 /*SECTION 1*/
 #section1 {
-    background: url(WhiteHouse.jpeg);
+    background: url(Home%20Page%20Image.jpeg);
     width: 100%;
-    height: 150%;
+    height: 100%;
     background-size: cover;
 }
 /*navigation bar*/
@@ -71,7 +71,7 @@ body {
 /*header position*/
 #header {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 125px;
 }
 /*hedaer style*/
 #headerText {
